@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Cat murzik = new Cat("Murzik");
+
+        murzik.meow();
+
+        Cat begemot = new Cat("begemot");
+        begemot.age = 2;
+        begemot.meow();
     }
 }
